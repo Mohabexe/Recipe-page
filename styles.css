@@ -1,0 +1,131 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+    --nutmeg: hsl(14, 45%, 36%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--eggshell);
+    font-family: font-family: "Outfit", sans-serif;;
+}
+
+.card{
+    margin-top:50px;
+    margin-bottom:50px;
+    width:30%;
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.img{
+    width: 90%;
+    height:90%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.title{
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    font-family: "Young Serif", "serif";
+}
+.description{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    font-size:0.8rem;
+}
+.time{
+    background-color: var(--rose-white);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    font-size:0.75rem;
+    padding: 5px;
+    color: var(--nutmeg);
+    border-radius: 10px;
+}
+.prep{
+    padding: 5px;
+    color:hsl(330, 100%, 30%);
+}
+li{
+    margin-left:5%;
+    padding: 5px;
+}
+.timeLi::marker{
+    color:hsl(330, 100%, 30%);
+}
+.ingredients{
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    font-size:1rem;
+    padding: 5px;
+    color: var(--nutmeg);
+    border-bottom: 1px solid var(--wenge-brown);
+}
+.ingredientsTitle{
+    font-family: "Young Serif", "serif";
+}
+.ingredientsLi{
+    font-size:0.8rem;
+}
+.instructions{
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    font-size:1rem;
+    padding: 5px;
+    color: var(--nutmeg);
+}
+.instructionsTitle{
+    font-family: "Young Serif", "serif";
+}
+.instructionsLi{
+    font-size:0.8rem;
+}
+.nutrition{
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    font-size:1rem;
+    padding: 5px;
+    color: var(--nutmeg);
+}
+.nutritionTitle{
+    font-family: "Young Serif", "serif";
+}
+.nutritionP{
+    margin-top: 10px;
+    font-size:0.8rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin:20px;
+}
+tr {
+    font-size:0.9rem;
+    color: var(--nutmeg);
+    border-bottom: 15px solid transparent; 
+}
